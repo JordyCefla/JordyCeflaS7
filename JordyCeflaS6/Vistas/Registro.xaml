@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="JordyCeflaS6.Vistas.Registro">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Ventana de Registro"/>
+            <Entry x:Name="txtNombre" Placeholder="Ingrese Nombre"/>
+            <Entry x:Name="txtUsuario" Placeholder="Ingrese Usuario"/>
+            <Entry x:Name="txtContrasena" Placeholder="Ingrese Contraseña"/>
+            <Button x:Name="btnIngresar" Text="Ingresar" Clicked="btnIngresar_Clicked"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
